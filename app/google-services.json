@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "248143337151",
+    "project_id": "curse-arm",
+    "storage_bucket": "curse-arm.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:248143337151:android:47b295e9442542e7be980a",
+        "android_client_info": {
+          "package_name": "com.example.curse_arm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCY-3UkMZ3ayNUIXwynJh-cwqkWuvu06KU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
