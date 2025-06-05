@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="12dp"
+    card_view:cardElevation="4dp"
+    card_view:cardCornerRadius="12dp"
+    android:foreground="?android:attr/selectableItemBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Информация о клиенте -->
+        <TextView
+            android:id="@+id/orderUser"
+            android:text="Имя клиента"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#212121"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Дата -->
+        <TextView
+            android:id="@+id/orderTimestamp"
+            android:text="Дата заказа"
+            android:textSize="14sp"
+            android:textColor="#757575"
+            android:layout_marginTop="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Статус -->
+        <TextView
+            android:id="@+id/orderStatus"
+            android:text="Статус"
+            android:textSize="14sp"
+            android:textStyle="italic"
+            android:textColor="#4CAF50"
+            android:layout_marginTop="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Контейнер для товаров -->
+        <LinearLayout
+            android:id="@+id/orderItemsContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:orientation="vertical"
+            android:divider="@android:color/darker_gray"
+            android:showDividers="middle"
+            android:dividerPadding="8dp" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
